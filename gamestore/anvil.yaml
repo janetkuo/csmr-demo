@@ -1,7 +1,0 @@
-kind: Anvil
-apiVersion: acme.com/v2
-metadata:
-  namespace: gamestore
-  name: heavy
-spec:
-  lbs: 100 
