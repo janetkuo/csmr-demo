@@ -9,7 +9,7 @@ spec:
   # Since this is for a namespace repository, the format should be unstructured
   sourceFormat: unstructured
   git:
-    repo: https://github.com/janetkuo/csmr-examples.git
+    repo: https://github.com/janetkuo/csmr-demo.git
     branch: main
     dir: gamestore
     # We recommend securing your source repository.
