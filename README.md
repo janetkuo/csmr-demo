@@ -44,7 +44,7 @@ spec:
   git:
     repo: https://github.com/janetkuo/csmr-demo.git
     branch: main
-    dir: "root-multirepo-unstructured"
+    dir: "root"
     # We recommend securing your source repository.
     # Other supported auth: `ssh`, `cookiefile`, `token`, `gcenode`.
     auth: none
