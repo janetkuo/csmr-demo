@@ -16,9 +16,6 @@ metadata:
 spec:
   # Enable multi-repo mode to use new features
   enableMultiRepo: true
-  # Enable policy controller to enforce constraints
-  policyController:
-    enabled: true
 ```
 
 Wait for the `RootSync` and `RepoSync` CRDs to be available:
