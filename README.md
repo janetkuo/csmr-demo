@@ -6,7 +6,7 @@
 
 ## Configuration
 
-For [Config Sync multi-repo mode](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/how-to/multi-repo) with unstructured format, use this [example](./root-multirepo-unstructured).
+This demonstrates how you can leverage [Config Sync multi-repo mode](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/how-to/multi-repo) to sync Kubernetes configurations from a git repository to a cluster.
 
 The example contains `ClusterRole`, `CustomResourceDefinition`, `Rolebinding`, `Namespace`, and `RepoSync`.
 
