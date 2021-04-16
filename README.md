@@ -100,3 +100,5 @@ The request should be rejected by the admission webhook.
 ### Valid changes
 
 Try to change the same annotation in your git repository, the change can be synced to the cluster.
+
+Note that you need to update [`RepoSync` resource](root/reposync-gamestore.yaml) to point to your own fork if you want to make changes in git.
