@@ -76,7 +76,7 @@ kubectl get <resources specified in the "root" directory>
 
 ### Namespace configs
 
-The configs in the "root" directory contains a `gamestore` namespace and a [`RepoSync` resource](root/reposync-gamestore.yaml) in the `gamestore` namespacing, referencing the "gamestore" directory in this git repository.
+The configs in the "root" directory contains a `gamestore` namespace and a [`RepoSync` resource](root/reposync-gamestore.yaml) in the `gamestore` namespace, referencing the "gamestore" directory in this git repository.
 
 To verify resources in the "gamestore" directory has been synced to the cluster:
 
