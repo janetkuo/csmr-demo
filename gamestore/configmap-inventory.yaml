@@ -4,7 +4,7 @@ metadata:
   name: store-inventory
   namespace: gamestore
   annotations:
-    marketplace.com/comments: "What about chess?"
+    marketplace.com/comments: "What about janet?"
     # Uncomment to ignore object mutations https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/how-to/multi-repo#ignoring
     # client.lifecycle.config.k8s.io/mutation: ignore
 data:
