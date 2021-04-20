@@ -68,6 +68,7 @@ kubectl -f root-sync.yaml
 To verify resources in the "root" directory has been synced to the cluster:
 
 ```console
+nomos status
 kubectl get -f root-sync.yaml -w
 kubectl describe -f root-sync.yaml
 kubectl get resourcegroups -n config-management-system
@@ -81,6 +82,7 @@ The configs in the "root" directory contains a `gamestore` namespace and a [`Rep
 To verify resources in the "gamestore" directory has been synced to the cluster:
 
 ```console
+nomos status
 kubectl get reposync.configsync.gke.io/repo-sync -n gamestore -w
 kubectl describe reposync.configsync.gke.io/repo-sync -n gamestore
 kubectl get resourcegroups -n gamestore
