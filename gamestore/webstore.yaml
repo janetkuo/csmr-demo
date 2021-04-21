@@ -5,4 +5,4 @@ metadata:
   namespace: gamestore
 spec:
   product: "boardgames"
-  employees: 5
+  employees: 4
